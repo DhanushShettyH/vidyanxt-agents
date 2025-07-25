@@ -29,7 +29,7 @@ Before running the agent, you need to set up authentication with Google Cloud:
 
 2. **Initialize the Google Cloud CLI**:
    ```bash
-   gcloud init
+   c
    ```
    This will guide you through logging in and selecting your project.
 

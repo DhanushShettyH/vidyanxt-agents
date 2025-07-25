@@ -1,0 +1,15 @@
+Project Structure: vidyanxt-agents
+Path: /home/kali/My_Projects/hackathon/vidyanxt-agents
+============================================================
+
+├── 📄 =1.0.0
+├── 📝 README.md
+├── 🐍 deploy.py
+├── 🐍 folder_structure.py
+├── 📁 manager_agent/
+│   ├── 🐍 __init__.py
+│   ├── 🐍 agent.py
+│   └── 📁 sub_agent/
+│       └── 📁 profile_agent/
+│           └── 🐍 agent.py
+└── 📄 requirements.txt
