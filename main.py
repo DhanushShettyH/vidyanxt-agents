@@ -49,7 +49,7 @@ class VidyaNXTService:
         
         # Setup runner
         self.runner = Runner(
-            agent=manager_agent,
+            agent=root_agent,
             app_name=self.app_name,
             session_service=self.session_service,
         )
