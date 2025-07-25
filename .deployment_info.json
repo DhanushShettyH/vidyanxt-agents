@@ -1,0 +1,6 @@
+{
+  "resource_name": "projects/400977849683/locations/us-central1/reasoningEngines/6015779959283384320",
+  "project_id": "vidyanxt-c5816",
+  "location": "us-central1",
+  "staging_bucket": "gs://vidyanxt-agnets"
+}

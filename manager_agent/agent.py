@@ -13,12 +13,13 @@ from .sub_agent.simulated_classroom_agent.agent import simulated_classroom_agent
 from .sub_agent.wellness_agent.agent import wellness_agent
 from .sub_agent.training_agent.agent import training_agent
 from .sub_agent.weekly_planner_agent.agent import weekly_planner_agent
+from .sub_agent.hyper_local_agent.agent import hyper_local_agent
 
 
 
 
 root_agent = Agent(
-    name="manager",
+    name="manager_agent",
     model="gemini-2.0-flash",
     description="Manager agent",
     instruction="""
@@ -56,7 +57,9 @@ root_agent = Agent(
         simulated_classroom_agent,
         wellness_agent,
         training_agent,
-        weekly_planner_agent
+        weekly_planner_agent,
+
+        hyper_local_agent
         ],
  
 )

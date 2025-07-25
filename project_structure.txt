@@ -26,7 +26,7 @@ Path: /home/kali/My_Projects/hackathon/vidyanxt-agents
 │       │   └── 🐍 agent.py
 │       ├── 📁 simulated_classroom_agent/
 │       │   └── 🐍 agent.py
-│       ├── 📁 training_agent.py/
+│       ├── 📁 training_agent/
 │       │   └── 🐍 agent.py
 │       ├── 📁 vidya_orchestrator_agent/
 │       │   └── 🐍 agent.py
