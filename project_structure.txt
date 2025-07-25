@@ -2,14 +2,39 @@ Project Structure: vidyanxt-agents
 Path: /home/kali/My_Projects/hackathon/vidyanxt-agents
 ============================================================
 
-├── 📄 =1.0.0
 ├── 📝 README.md
 ├── 🐍 deploy.py
 ├── 🐍 folder_structure.py
+├── 🐍 main.py
 ├── 📁 manager_agent/
 │   ├── 🐍 __init__.py
 │   ├── 🐍 agent.py
 │   └── 📁 sub_agent/
-│       └── 📁 profile_agent/
+│       ├── 📁 ai_chat_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 classification_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 differentiation_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 hyper_local_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 matching_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 post_orchestration_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 profile_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 simulated_classroom_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 training_agent.py/
+│       │   └── 🐍 agent.py
+│       ├── 📁 vidya_orchestrator_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 visual_aid_agent/
+│       │   └── 🐍 agent.py
+│       ├── 📁 weekly_planner_agent/
+│       │   └── 🐍 agent.py
+│       └── 📁 wellness_agent/
 │           └── 🐍 agent.py
+├── 📄 project_structure.txt
 └── 📄 requirements.txt
